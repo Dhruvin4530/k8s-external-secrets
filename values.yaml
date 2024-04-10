@@ -1,0 +1,7 @@
+fullnameOverride: "external-secrets"
+clusterName: prod-cluster
+clusterEndpoint: ${dependency.eks.outputs.cluster_endpoint}
+serviceAccount:
+  name: password-token
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::765631733981:role/external-secret-operator-role
