@@ -1,1 +1,1 @@
-# Kubernetes Secrets Management Using External Secrets Operator(ESO)
+# How to use the external secret to mount secrets to Kubernetes pods from AWS Secrets Manager?
